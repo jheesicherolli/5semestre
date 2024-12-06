@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import { Login } from "../Pages/Login/Login"
-import { Cadastro } from "../Pages/Cadastro/Cadastro"
+import { Login } from "../pages/Login/Login"
+import { Cadastro } from "../pages/Cadastro/Cadastro"
 import { Home } from "../pages/Home/Home"
 import { Projeto } from "../pages/Projeto/Projeto"
 
