@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("../../assets/fundoTI.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tech-road-map {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+
+.home {
+  width: 90%;
+  max-width: 950px;
+  height: auto;
+  background: rgba(21, 1, 255, 0.10);
+  backdrop-filter: blur(25px);
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-radius: 30px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.home h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Julius Sans One";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 20px;
+}
+
+.home h5 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Julius Sans One";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 10px auto;
+}
+
+.home button {
+  width: 80%;
+  max-width: 200px;
+  height: 35px;
+  background: rgba(20, 5, 180, 0.1);
+  backdrop-filter: blur(20px);
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 1rem;
+  color: #dfdfdf;
+  font-weight: 700;
+  text-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.home .signup-link {
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.signup-link p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-link p a:hover {
+  text-decoration: underline;
+}
+
+.tech-road-map {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Kameron;
+  color: #FFF;
+  letter-spacing: 2.4px;
+}
+
+
+@media (max-width: 600px) {
+  .home {
+    padding: 20px;
+  }
+
+  .home h1 {
+    font-size: 1.5rem;
+  }
+
+  .home h5 {
+    font-size: 1rem;
+  }
+
+  .home button {
+    font-size: 0.9rem;
+  }
+
+  .tech-road-map {
+    font-size: 0.8rem;
+  }
+}

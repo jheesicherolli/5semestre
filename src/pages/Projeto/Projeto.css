@@ -1,0 +1,194 @@
+.projeto-body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("../../assets/fundoTI.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  font-size: 25px;
+  letter-spacing: 2.4px;
+  margin-left: 0;
+}
+
+.navbar {
+  display: flex;
+  margin-right: 0;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Kameron;
+  background: #071422;
+  width: 100%;
+  height: 6vh;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFF;
+  letter-spacing: 2.4px;
+  cursor: pointer;
+}
+
+.submenu {
+  position: relative;
+  display: inline-block;
+}
+
+.submenu-conteudo {
+  display: none;
+  position: absolute;
+  background: #050527;
+  min-width: 230px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.submenu:hover .submenu-conteudo {
+  display: block;
+}
+
+/* Posts */
+
+.container-publication {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 75px;
+  margin-bottom: 200px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px; 
+  justify-content: center; /* Centraliza os posts */
+  padding-top: 20px; 
+}
+
+.card {
+  flex: 1 1 calc(33.333% - 20px); 
+  max-width: calc(33.333% - 20px); 
+  background: #112131;
+  border-radius: 10px;
+  padding: 32px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.card header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card header h1 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #e7edf4;
+}
+
+.card header span {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7b96b2;
+}
+
+.card .card-content-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 25px;
+}
+
+.container-publication input {
+  padding: 12px 16px;
+  background: #040f1a;
+  border: 1px solid #1c2f41;
+  border-radius: 6px;
+  color: #f4f4f4;
+  outline: none;
+  width: 100%;
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.content {
+  padding-top: 25px; 
+}
+
+.add-post-button {
+  padding: 5px 16px;
+  background: #040f1a;
+  border: 1px solid #1c2f41;
+  border-radius: 6px;
+  color: #f4f4f4;
+  margin-top: 1px;
+  font-size: 14px;
+  
+}
+
+.botoes-segundarios{
+  padding: 5px 10px;
+  background: #040f1a;
+  border: 1px solid #1c2f41;
+  border-radius: 6px;
+  color: #f4f4f4; 
+ 
+   
+  
+}
+
+.conteudo{
+  padding: 5px 10px;
+  background: #040f1a;
+  border: 1px solid #1c2f41;
+  border-radius: 6px;
+  color: #f4f4f4;  
+  
+}
+
+.add-post {
+  padding: 12px 16px;
+  background: #040f1a;
+  border: 1px solid #1c2f41;
+  border-radius: 6px;
+  color: #f4f4f4;
+  outline: none;
+  width: 100%;
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 400;
+}
+@media (max-width: 999px) {
+  .navbar {
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+  }
+  .card {
+    flex: 1 1 100%; 
+    max-width: 100%;
+  }
+}
