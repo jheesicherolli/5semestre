@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "project",
+=======
+  "name": "job",
+>>>>>>> c0fc03195322462120ae45c851c9dc687e4c98f3
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,10 +14,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.0.1",
     "react-toastify": "^10.0.6"
+=======
+    "@phosphor-icons/react": "^2.1.7",
+    "axios": "^1.7.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+>>>>>>> c0fc03195322462120ae45c851c9dc687e4c98f3
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
